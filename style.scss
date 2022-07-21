@@ -5,19 +5,24 @@
 }
 
 h1 {
-    text-align: center;
     margin: 0;
+    border: 2px black solid;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbarH {
     display: flex;
     justify-content: space-around;
-    margin: 0;
+    margin: 1rem;
     padding: 0;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 .navbarV {
